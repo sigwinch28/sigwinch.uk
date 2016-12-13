@@ -1,0 +1,53 @@
+/* Using Solarized Color Palette */
+body {
+	background-color: #eee8d5; /* base2 */
+	font-family: 'Open Sans', sans-serif;
+}
+
+body, a {
+	color: #657b83;
+	transition: color .5s ease;
+}
+
+div.section > h1, a:hover, a:active {
+	color: #cb4b16;
+}
+
+div.mandoc {
+	background-color: #fdf6e3; /* base3 */
+	width: 100%;
+	margin: 1em auto;
+	padding: 1em;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+div.section {
+	padding-left: 1em;
+}
+
+div.section > h1 {
+	margin-left: -0.5em;
+}
+
+b.name, span.env {
+	color: #586e75;
+}
+
+div.section > h1, table.head, table.foot, b.name, table.synopsis, span.env {
+	font-family: 'PT Mono', sans-serif;
+}
+
+table.synopsis i.arg {
+	padding-left: .5em;
+}
+
+table.foot {
+	margin-top: 2em;
+}
+
+@media all and (min-width: 68em) {
+	div.mandoc {
+		width: 64em;
+	}
+}
