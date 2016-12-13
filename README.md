@@ -10,5 +10,5 @@ These are the source files for my website at https://sigwinch.uk
 
 # Building
 
-  $ make
+    $ make
 
